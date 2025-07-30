@@ -30,3 +30,10 @@ Log into your neptune workspace in the web app, and:
 
 ## 3. Run the basic tests
 
+Run the command to run all basic tests:
+```
+python basic_tests.py
+```
+
+The script will prompt you for some manual verification actions to perform.
+
