@@ -5,7 +5,7 @@ Tests worth running to confirm successful setup of a self-hosted neptune instanc
 Tests are divided into:
 1. `basic_test.py` that only checks minimal logging functionality & can be parametrized by number of metrics & steps logged
 2. `feature_tests.py` with comprehensive checks for most logging & retrieval features (recommended for deployment validation)
-3. `performance_tests.py` measuring logging throughput & retrieval performance (not implemneted yet)
+3. `performance_tests.py` measuring logging throughput & retrieval performance (not implemented yet)
 
 Some (<10%) of the tests will prompt you for maual validation actions, to be completed as a kind of post-deployment "checklist".
 
