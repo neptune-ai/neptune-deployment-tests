@@ -76,7 +76,7 @@ def manual_confirm(message: str):
     print("")
     print("[MANUAL CONFIRMATION REQUIRED]")
     print(message)
-    print("Do you confirm? (Y/n)")
+    print("Is this correct? (Y/n)")
     if input().lower() == "n":
         raise KeyboardInterrupt
 
