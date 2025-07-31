@@ -2,3 +2,4 @@ neptune-api
 neptune-fetcher
 neptune-scale
 requests
+typer
