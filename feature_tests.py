@@ -476,7 +476,10 @@ def main(
     for fn in filtered_tests:
         fn()
 
+    print("--------------------------------")
+    print(f"Tests executed: {tests_run}/{tests_available}")
     print(f"Tests passed: {tests_passed}/{tests_run}")
+    print("--------------------------------")
 
 
 if __name__ == "__main__":
